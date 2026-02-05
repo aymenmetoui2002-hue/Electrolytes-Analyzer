@@ -302,6 +302,8 @@ const App = () => {
       }
     });
 
+    
+
     setTimeout(() => {
       if (hasCritical) {
         playAlertSound('critical');
